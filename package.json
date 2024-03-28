@@ -1,16 +1,22 @@
 {
-  "name": "next-netlify-starter",
-  "version": "0.5.0",
-  "private": true,
+  "name": "your-nextjs-app",
+  "version": "1.0.0",
+  "description": "Your Next.js Application Description",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "start": "next start"
   },
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "cypress": "^13.4.0",
-    "next": "^14.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.73",
+    "typescript": "5.4.3"
   }
 }
